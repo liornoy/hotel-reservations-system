@@ -1,2 +1,2 @@
-# hotel-reservations-system-
+# hotel-reservations-system
 Basic Django App
