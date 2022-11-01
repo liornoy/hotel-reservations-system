@@ -24,4 +24,4 @@ class Review(models.Model):
     rating = models.IntegerField(validators=[MinValueValidator(0),
                                  MaxValueValidator(10)])
     guest = models.ForeignKey(Guest, on_delete=models.CASCADE)
-    content = models.TextField
+    content = models.TextField()
